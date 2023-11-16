@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Ravenous - The Restaurant Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Ravenous is a React-based web application that leverages the Yelp API to allow users to search for restaurants in their area. It is designed to mirror the functionality of Yelp, providing search results based on user queries, sorting by best match, highest rated, or most reviewed options. This project is part of the Codecademy's Full-Stack Engineer curriculum, which guides learners through the process of building functional applications with front-end and back-end technologies.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- React.js
+- Yelp API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- To create a dynamic, client-side application in React.
+- To learn how to pass information to components and manage their state.
+- To practice interacting with a third-party API and handle the data fetched.
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is divided into several stages:
 
-### `npm run build`
+1. **Creating Static Components**: Building out the static parts of the app.
+2. **Passing Information to Components**: Implementing data flow between components.
+3. **Setting the State of Components**: Making the app interactive by using state.
+4. **Interacting with the Yelp API**: Fetching real data from Yelp and displaying it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running the Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository to your local machine.
+2. Install the necessary node modules with `npm install`.
+3. Start the development server with `npm start`.
+4. Visit `http://localhost:3000` in your browser to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribution
 
-### `npm run eject`
+As this is a project for educational purposes, contributions are not actively sought. However, constructive feedback is always welcome.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is open-sourced under the [MIT license](LICENSE).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Codecademy for providing the platform and guidance to undertake this project.
+- Yelp for making their API available for educational purposes.
