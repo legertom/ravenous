@@ -1,0 +1,42 @@
+.business {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 250px;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.address {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.business-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
