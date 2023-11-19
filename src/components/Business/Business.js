@@ -1,11 +1,8 @@
 import React from "react";
 import "./Business.css";
 
-
-
 class Business extends React.Component {
   render() {
-
     const { business } = this.props;
 
     return (

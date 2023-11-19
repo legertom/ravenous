@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SearchBar.css";
 
-class SearchBar extends React.Component {
-  render() {
+function SearchBar () {
+  const [term, setTerm] = useState("");
+  const [location, setLocation] = useState("");
+  const [sortBy, setSortBy] = useState("best_match");
+
+  const handleClick = (sortValue) => {
+    setSortBy(sortValue);
+  }
+
     return (
       <div className="search-bar">
         <div className="sorting-options">
-          <button>Best Match</button>
-          <button>Highest Rated</button>
-          <button>Most Reviewed</button>
+          <button  onClick={() => handleClick('best_match')}>Best Match</button>
+          <button onClick={() => handleClick('highest_rated')}>Highest Rated</button>
+          <button onClick={() => handleClick('most_reviewed')}>Most Reviewed</button>
         </div>
         <div className="search-inputs">
           <input type="text" placeholder="Search Businesses" />
@@ -17,7 +24,7 @@ class SearchBar extends React.Component {
         <button type="submit" className="submit-button">Let's Go</button>
       </div>
     );
-  }
+  
 }
 
 export default SearchBar;
