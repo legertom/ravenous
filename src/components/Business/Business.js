@@ -1,9 +1,9 @@
 import React from "react";
 import "./Business.css";
 
-class Business extends React.Component {
-  render() {
-    const { business } = this.props;
+function Business (props) {
+
+    const { business } = props;
 
     return (
       <div className="business">
@@ -23,7 +23,7 @@ class Business extends React.Component {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Business;
